@@ -33,5 +33,13 @@ Route::get('/', function () {
 
 Route::get('/produtos', function() {
 
-    return view('products');
+    $busca = request('search');
+    $nome = request('nome');
+
+    return view('products', ['busca' => $busca, 'nome' => $nome]);
+});
+
+Route::get('/produtos_teste/{id?}', function($id = null) {
+
+    return view('product', ['id' => $id]);
 });
