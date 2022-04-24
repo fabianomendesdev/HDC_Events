@@ -30,3 +30,8 @@ Route::get('/', function () {
         'nomes' => $nomes
     ]);
 });
+
+Route::get('/produtos', function() {
+
+    return view('products');
+});
