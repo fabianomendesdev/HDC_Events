@@ -171,6 +171,7 @@ header {
     margin: 0;
     font-size: 14px;
     display: flex;
+    align-items: center;
 }
 
 #info-container h3,
@@ -187,6 +188,16 @@ header {
 
 #info-container #event-submit {
     margin: 20px 0;
+}
+
+#items-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#items-list li {
+    display: flex;
+    align-items: center;
 }
 
 /* footer */
