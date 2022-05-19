@@ -61,12 +61,4 @@ class EventController extends Controller
 
         return view('events.show', ['event' => $event]);
     }
-
-    public function login(){
-        return view('login');
-    }
-
-    public function register(){
-        return view('register');
-    }
 }
