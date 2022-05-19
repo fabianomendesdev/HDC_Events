@@ -54,7 +54,7 @@
                                     class="nav-link"
                                     onclick="event.preventDefault();
                                     this.closest('form').submit();">
-                                    Sair
+                                    'Sair
                                 </a>
                             </form>
                         </li>  
