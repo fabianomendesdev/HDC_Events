@@ -12,6 +12,7 @@ body {
 header {
     background-color: #FFF;
     border-bottom: 1px solid #CCC;
+    padding: 0 20px;
 }
 
 .row {
@@ -198,6 +199,10 @@ header {
 #items-list li {
     display: flex;
     align-items: center;
+}
+
+#description-container {
+    margin-top: 30px;
 }
 
 /* footer */
